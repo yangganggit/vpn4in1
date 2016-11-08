@@ -49,7 +49,7 @@ l_remote_ip="10.10.99.100-10.10.99.200"
 wd=`pwd`
 wd_work=`pwd`/work
 mkdir -p $wd_work
-server_ip=`ifconfig  | grep 'inet addr:'| grep -v '127.0.0.1' | cut -d: -f2 | awk 'NR==1 { print $1}'`
+server_ip=`205.209.162.77`
 radius_server="xxx.xxx.xxx.xxx"
 mysql_root_pwd="zooboa.com"
 secret_key="zooboa.com"
